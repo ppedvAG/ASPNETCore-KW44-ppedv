@@ -22,7 +22,7 @@ namespace DISample_RazorPage.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Rock me Amadeus");
         }
     }
 }

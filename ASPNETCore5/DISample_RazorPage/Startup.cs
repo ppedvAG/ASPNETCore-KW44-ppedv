@@ -1,4 +1,5 @@
 using DependencyInversionInASPNETCORE;
+using DISample_RazorPage.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +36,8 @@ namespace DISample_RazorPage
 
             services.AddSingleton<ICar, MockCar>(); //Unser Service binden wir in unsere IServiceCollection ein
             services.AddScoped<ICar, MockCar2>(); //Unser Service binden wir in unsere IServiceCollection ein
+
+            services.Configure<SampleWebSettings>(Configuration); //bereiten die Benutzung für IOptions vor
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
