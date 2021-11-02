@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VjcZswdvOWFMfX9mixTh49xJTqBDodoIjWZ2ryg+R5NjktzRZul6GFduXKIVM+imhxp9Wq/lymER6ib8NSdWyA==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCore-KW44-ppedv\\ASPNETCore5\\DISample_MVC\\DISample_MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

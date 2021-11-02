@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\bin\Debug\net5.0\DependencyInversionInASPNETCORE.deps.json
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\bin\Debug\net5.0\DependencyInversionInASPNETCORE.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\bin\Debug\net5.0\ref\DependencyInversionInASPNETCORE.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\bin\Debug\net5.0\DependencyInversionInASPNETCORE.pdb
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.csproj.AssemblyReference.cache
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.AssemblyInfo.cs
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\ref\DependencyInversionInASPNETCORE.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionInASPNETCORE\obj\Debug\net5.0\DependencyInversionInASPNETCORE.pdb
