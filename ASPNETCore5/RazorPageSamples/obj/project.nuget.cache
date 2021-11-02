@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NZJRD6Xgp2Ea8f2ccniSFq4btuf5VDpn0Ed8qlQcToGBAgjUG9xJEnmAuTC4Uyxe0XUWpSMhLEpHEVBwchYSUA==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\ASPNETCore-KW44-ppedv\\ASPNETCore5\\RazorPageSamples\\RazorPageSamples.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

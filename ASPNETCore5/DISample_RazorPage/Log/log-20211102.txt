@@ -29,3 +29,36 @@
 2021-11-02 14:07:50.767 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 235.0548ms
 2021-11-02 14:07:50.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 237.8656ms
 2021-11-02 14:07:50.770 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 258.0888ms
+2021-11-02 14:40:24.429 +01:00 [INF] Starting webhost
+2021-11-02 14:40:35.352 +01:00 [INF] User profile is available. Using 'C:\Users\kw4\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-02 14:40:35.573 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-02 14:40:35.573 +01:00 [INF] Hosting environment: Development
+2021-11-02 14:40:35.573 +01:00 [INF] Content root path: C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DISample_RazorPage
+2021-11-02 14:40:35.619 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/ - -
+2021-11-02 14:40:35.681 +01:00 [INF] Executing endpoint '/Index'
+2021-11-02 14:40:35.779 +01:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-11-02 14:40:35.788 +01:00 [INF] Executing handler method DISample_RazorPage.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-11-02 14:40:35.791 +01:00 [INF] Rock me Amadeus
+2021-11-02 14:40:35.791 +01:00 [INF] Executed handler method OnGet, returned result .
+2021-11-02 14:40:35.795 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-11-02 14:40:35.796 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-11-02 14:40:35.932 +01:00 [INF] Executed page /Index in 149.0281ms
+2021-11-02 14:40:35.933 +01:00 [INF] Executed endpoint '/Index'
+2021-11-02 14:40:35.944 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/ - - - 200 - text/html;+charset=utf-8 327.2378ms
+2021-11-02 14:40:35.976 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-11-02 14:40:35.985 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/css/site.css - -
+2021-11-02 14:40:35.991 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/lib/jquery/dist/jquery.min.js - -
+2021-11-02 14:40:35.992 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-11-02 14:40:35.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-11-02 14:40:36.016 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DISample_RazorPage\wwwroot\js\site.js'
+2021-11-02 14:40:36.016 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DISample_RazorPage\wwwroot\css\site.css'
+2021-11-02 14:40:36.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/css/site.css - - - 200 1417 text/css 38.7930ms
+2021-11-02 14:40:36.061 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 26.8012ms
+2021-11-02 14:40:36.075 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DISample_RazorPage\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-11-02 14:40:36.075 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DISample_RazorPage\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-11-02 14:40:36.075 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DISample_RazorPage\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-11-02 14:40:36.079 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 102.5957ms
+2021-11-02 14:40:36.079 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 87.8263ms
+2021-11-02 14:40:36.079 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 81.3286ms
+2021-11-02 14:40:45.860 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44354/Modul002/Calc - -
+2021-11-02 14:40:45.863 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44354/Modul002/Calc - - - 404 - - 3.3373ms

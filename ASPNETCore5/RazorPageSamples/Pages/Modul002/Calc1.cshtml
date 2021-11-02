@@ -1,0 +1,20 @@
+﻿@page
+@model RazorPageSamples.Pages.Modul002.Calc1Model
+@{
+    Layout = "_Layout3"; //Expliziete angabe
+}
+
+<h1>Calculator 2</h1>
+
+<form method="post">
+    <input name="eins" /> 
+    <br />
+    <input name="zwei" />
+    <br />
+
+
+    <input type="submit" asp-page-handler="plus" value="+" />
+    <input type="submit" asp-page-handler="minus" value="-" />
+</form>
+
+<p>Ausgabe: Ergebnis @Model.Ergebnis</p>

@@ -1,0 +1,17 @@
+﻿@page
+@model RazorPageSamples.Pages.Modul003.PartialViewSample1Model
+@{
+}
+
+
+<p>_Zeit wird zuerst in Pages/Shared gesucht </p>
+
+
+<p>Partial-TagAttribute</p>
+<partial name="_Zeit" />
+
+<p>Html.PartialAsync("_Zeit");</p>
+@await Html.PartialAsync("_Zeit")
+
+
+@Html.Partial("_Zeit")

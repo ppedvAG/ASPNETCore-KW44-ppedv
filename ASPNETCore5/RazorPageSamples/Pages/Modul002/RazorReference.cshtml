@@ -1,0 +1,227 @@
+﻿@page
+@*@using RazorPageSamples.Models*@
+@model RazorPageSamples.Pages.Modul002.RazorReferenceModel
+@{
+}
+
+@* 1.) Einfache Ausgabe *@
+
+<p>@Model.Username</p>
+<p>@@Model.Username</p>
+
+
+@*2.) Impliziete Razor-Ausdrücke*@
+<p>@DateTime.Now</p>
+<p>@DateTime.IsLeapYear(2016)</p>
+
+@*3.) Expliziten Razor Ausdruck *@
+<p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>
+
+@* 3.1 Die im vorherigen Abschnitt beschriebenen impliziten Ausdrücke dürfen grundsätzlich keine Leerzeichen enthalten.
+    Im folgenden Code wird eine Woche nicht von der aktuellen Uhrzeit abgezogen: *@
+<p>Last week: @DateTime.Now-TimeSpan.FromDays(7)</p>
+
+
+@{
+    //Lokale Variable -> gilt nur in dieser Razor-Seite
+    Person mitarbeiterDesMonats = new Person("Joe", 33);
+}
+
+<p>Name des Mitarbteiter des Monats: @mitarbeiterDesMonats.Name (@mitarbeiterDesMonats.Age)</p>
+
+
+<p>@(GenericMethod<int>())</p>
+
+@*Erweiterung der Code-Behind Datei *@
+@functions
+{
+    public string GenericMethod<T>()
+    {
+        return "a type";
+    }
+}
+
+
+@*4.0 Codieren von Ausdrücken*@
+@*4.1 *@
+@("<span>Hello World</span>")
+
+<br />
+@* Warnung
+    Die Verwendung von HtmlHelper.Raw bei einer nicht bereinigten Benutzereingabe stellt ein Sicherheitsrisiko dar.
+    Benutzereingaben können schädlichen JavaScript-Code oder andere Sicherheitsrisiken enthalten.
+    Das Bereinigen von Benutzereingaben ist schwierig.
+    ermeiden Sie daher die Verwendung von HtmlHelper.Raw bei Benutzereingaben. *@
+
+@Html.Raw("<span>Hello World</span>")
+
+@*5.0) Code-Blöcke*@
+
+@{
+    var quote = "the future depends on what you to today - Mahamta Gandhi";
+}
+
+<p>@quote</p>
+
+@{
+    void RenderName(string name)
+    {
+        <p>Name: <strong>@name</strong></p>
+    }
+
+    RenderName("Mahatma Gandhi");
+    RenderName("Martin Luther King");
+}
+
+
+@for (int y = 0; y < Model.People.Length; y++)
+{
+    var person = Model.People[y];
+    <text>Name: @person.Name</text>
+}
+
+@* 6.2 Explizite Zeilenübergänge *@
+<p>Verwenden Sie die @@:-Syntax, um den Rest einer kompletten Zeile als HTML-Code in einem Codeblock zu rendern:</p>
+@for (int y = 0; y < Model.People.Length; y++)
+{
+    var person = Model.People[y];
+    @:Name: @person.Name
+}
+
+
+
+<p>If Statement</p>
+@functions {
+    private int value = 2;
+}
+
+@if (value % 2 == 0)
+{
+    <p>Der Wert ist durch 2 Teilbar</p>
+}
+else if (value >= 1337)
+{
+    <p>Der Wert ist größer-gleich 1337</p>
+}
+else
+{
+    <p>The value is odd and small.</p>
+}
+
+@*Switch - Anweisung *@
+
+@switch (value)
+{
+    case 1:
+        <p>value is 1</p>
+        break;
+    case 2:
+        <p>value is 2</p>
+        break;
+
+    default:
+        <p>Ein anderer Wert</p>
+        break;
+}
+
+@for (var a = 0; a < Model.People.Length; a++)
+{
+    var person = Model.People[a];
+    <p>Name: @person.Name</p>
+    <p>Age: @person.Age</p>
+}
+
+@{
+    int i = 0;
+}
+
+@while (i < Model.People.Length)
+{
+    var person = Model.People[i];
+    <p>Name: @person.Name</p>
+    <p>Age: @person.Age</p>
+
+    i++;
+}
+
+@{ i = 0; }
+@do
+{
+    Person person = Model.People[i];
+    <p>Name: @person.Name</p>
+    <p>Age: @person.Age</p>
+    i++;
+} while (i < Model.People.Length);
+
+@foreach (Person currentPerson in Model.People)
+{
+    @currentPerson.Name
+    <br />
+    @currentPerson.Age
+}
+
+
+@using (Html.BeginForm())@*<form>....</form>*@
+{
+    <div>
+        Email: <input type="email" id="Email" value="">
+        <button type="submit">Register</button>
+    </div>
+}
+
+@try
+{
+
+}
+catch (Exception ex)
+{
+    <p>@ex.Message</p>
+}
+finally
+{
+    <p>the finally statement</p>
+}
+
+
+@lock (Model.Username)
+{
+
+}
+
+@*implements wird verwendet um Interfaces in die Razor-Seite zu implementieren*@
+@implements IDisposable
+
+@functions {
+    private bool _isDisposed;
+
+    public void Dispose()
+    {
+        _isDisposed = true;
+    }
+}
+
+
+@* 8.4 @inject
+    Mit der @inject-Anweisung kann die Razor Page einen Dienst aus dem Dienstcontainer in eine Ansicht einfügen.
+    Weitere Informationen finden Sie unter Dependency Injection in Ansichten.
+*@
+@using DependencyInversionInASPNETCORE
+@inject ICar myMockCar
+
+<p>@myMockCar.Brand</p>
+<p>@myMockCar.Model</p>
+<p>@myMockCar.ConstructionYear</p>
+
+
+@section Scripts {
+    <script type="text/javascript" src="~/scripts/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            alert("Test");
+        });
+    </script>
+}
+
+
+
