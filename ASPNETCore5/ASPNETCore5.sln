@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{804BE57B-3472-4C6D-A3E7-A39EA5677FAA}"
 	ProjectSection(SolutionItems) = preProject
 		Agenda.md = Agenda.md
+		Links.txt = Links.txt
 	EndProjectSection
 EndProject
 Global

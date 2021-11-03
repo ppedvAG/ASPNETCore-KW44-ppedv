@@ -1,0 +1,8 @@
+
+Hot-Reload Feature in NET 6: 
+https://devblogs.microsoft.com/dotnet/net-hot-reload-support-via-cli/
+https://devblogs.microsoft.com/dotnet/update-on-net-hot-reload-progress-and-visual-studio-2022-highlights/
+
+
+Middleware - Reihenfolge in der Startup.cs
+https://docs.microsoft.com/de-de/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0

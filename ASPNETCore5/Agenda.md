@@ -15,12 +15,20 @@
 - [x] Client / Serverseitige Validierung / manuelle Fehlerfälle
 - [x] Clientseitige Validierung Bugbehebung
 
-- [ ] TagHelper / ASP-Helper
-- [ ] Routing
+- [x] MovieStore + Warenkorb + Warenkorbansicht 
+
+
+- [x] TagHelper / ASP-Helper
+- [x] Routing
 - [ ] State Management
 - [ ] SignalR /  Blazor/SignalR
 - [ ] Lokalisierung / ViewComponents
 
+- [ ] Bilder hochladen
+- [ ] Gallery
+- [ ] Middleware -> ThumNails 
+
+- [ ] Kestrel - Server
 - [ ] WebAPI 
 - [ ] OpenAPI / Swagger 
 - [ ] HttpClient

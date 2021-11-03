@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using RazorPageSamples.Data;
+using Westwind.AspNetCore.LiveReload;
 
 namespace RazorPageSamples
 {
@@ -26,12 +27,25 @@ namespace RazorPageSamples
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddLiveReload();
+
+            //services.AddLiveReload(config =>
+            //{
+            //    // optional - use config instead
+            //    //config.LiveReloadEnabled = true;
+            //    //config.FolderToMonitor = Path.GetFullname(Path.Combine(Env.ContentRootPath,"..")) ;
+            //});
+
+            services.AddRazorPages()
+                .AddRazorRuntimeCompilation();
 
             services.AddSingleton<ICar, MockCar>();
 
             services.AddDbContext<MovieDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MovieDbContext")));
+
+
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,6 +54,7 @@ namespace RazorPageSamples
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseLiveReload();
             }
             else
             {
@@ -52,8 +67,8 @@ namespace RazorPageSamples
             app.UseStaticFiles();
 
             app.UseRouting();
-
             app.UseAuthorization();
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
