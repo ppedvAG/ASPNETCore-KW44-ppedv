@@ -26,8 +26,15 @@ using RazorPageSamples.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\Pages\_ViewImports.cshtml"
+using RazorPageSamples.TagHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"20b7b212e72aaaadf287133cfe6b59bd5f1e4217", @"/Pages/Modul003/PartialViewSample2.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9d7954b0fa5c1b0b1823171fbce03ed54906365", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4a62f2db48577cbaf53f7af60ccde9211900af9c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Modul003_PartialViewSample2 : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page-handler", "excel", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -57,7 +64,7 @@ using RazorPageSamples.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20b7b212e72aaaadf287133cfe6b59bd5f1e42173902", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20b7b212e72aaaadf287133cfe6b59bd5f1e42174113", async() => {
                 WriteLiteral("Excel Export");
             }
             );

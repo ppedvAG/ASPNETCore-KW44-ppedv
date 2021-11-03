@@ -26,9 +26,16 @@ using RazorPageSamples.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\Pages\_ViewImports.cshtml"
+using RazorPageSamples.TagHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("RouteTemplate", "{handler?}")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0893bb895d54f7eb41d115b3a6f9cb1d3ffa4927", @"/Pages/Modul002/Calc.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9d7954b0fa5c1b0b1823171fbce03ed54906365", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4a62f2db48577cbaf53f7af60ccde9211900af9c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Modul002_Calc : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "post", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -58,7 +65,7 @@ using RazorPageSamples.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<h1>Calculator</h1>\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0893bb895d54f7eb41d115b3a6f9cb1d3ffa49273760", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0893bb895d54f7eb41d115b3a6f9cb1d3ffa49273971", async() => {
                 WriteLiteral("\r\n    <input name=\"eins\" />\r\n    <input name=\"zwei\" />\r\n    <button type=\"submit\">Add</button>\r\n");
             }
             );

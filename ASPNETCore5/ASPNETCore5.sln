@@ -7,11 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionSample",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionInASPNETCORE", "DependencyInversionInASPNETCORE\DependencyInversionInASPNETCORE.csproj", "{6F8A192F-E2D5-470C-A391-0741EEC5A09A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISample_RazorPage", "DISample_RazorPage\DISample_RazorPage.csproj", "{114371FF-5FC4-49C2-95C5-E785C0CEAD82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DISample_RazorPage", "DISample_RazorPage\DISample_RazorPage.csproj", "{114371FF-5FC4-49C2-95C5-E785C0CEAD82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DISample_MVC", "DISample_MVC\DISample_MVC.csproj", "{0BA6F4B3-148A-463A-8FFF-A21EC48F73BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DISample_MVC", "DISample_MVC\DISample_MVC.csproj", "{0BA6F4B3-148A-463A-8FFF-A21EC48F73BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPageSamples", "RazorPageSamples\RazorPageSamples.csproj", "{6D05B1FE-5CC8-41BC-9A96-3C43C91FBB28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPageSamples", "RazorPageSamples\RazorPageSamples.csproj", "{6D05B1FE-5CC8-41BC-9A96-3C43C91FBB28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{804BE57B-3472-4C6D-A3E7-A39EA5677FAA}"
+	ProjectSection(SolutionItems) = preProject
+		Agenda.md = Agenda.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

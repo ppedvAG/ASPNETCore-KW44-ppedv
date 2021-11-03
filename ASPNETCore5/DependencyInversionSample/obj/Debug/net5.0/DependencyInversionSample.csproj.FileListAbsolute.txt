@@ -5,7 +5,6 @@ C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\bi
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\bin\Debug\net5.0\DependencyInversionSample.dll
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\bin\Debug\net5.0\ref\DependencyInversionSample.dll
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\bin\Debug\net5.0\DependencyInversionSample.pdb
-C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\obj\Debug\net5.0\DependencyInversionSample.csproj.AssemblyReference.cache
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\obj\Debug\net5.0\DependencyInversionSample.GeneratedMSBuildEditorConfig.editorconfig
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\obj\Debug\net5.0\DependencyInversionSample.AssemblyInfoInputs.cache
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\DependencyInversionSample\obj\Debug\net5.0\DependencyInversionSample.AssemblyInfo.cs
