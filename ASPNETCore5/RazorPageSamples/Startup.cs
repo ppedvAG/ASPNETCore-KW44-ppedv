@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using RazorPageSamples.Data;
 using Westwind.AspNetCore.LiveReload;
+using Microsoft.AspNetCore.Http;
+using RazorPageSamples.Middleware;
+using Microsoft.AspNetCore.Mvc;
 
 namespace RazorPageSamples
 {
@@ -39,12 +42,15 @@ namespace RazorPageSamples
             services.AddRazorPages()
                 .AddRazorRuntimeCompilation();
 
+
+            
+
             services.AddSingleton<ICar, MockCar>();
 
             services.AddDbContext<MovieDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MovieDbContext")));
 
-
+            services.AddResponseCaching();
             services.AddSession();
         }
 
@@ -64,11 +70,27 @@ namespace RazorPageSamples
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+
+
+            app.UseResponseCaching();
+
+            app.UseStaticFiles(); //wwwroot 
 
             app.UseRouting();
             app.UseAuthorization();
             app.UseSession();
+
+            AppDomain.CurrentDomain.SetData("BildVerzeichnis", env.WebRootPath);
+
+
+            #region Customize Middleware
+
+            //Middleware wird aktiv, wenn im Request "imagegen" angegeben wird
+            app.MapWhen(context => context.Request.Path.ToString().Contains("imagegen"), subapp =>
+            {
+                subapp.UseThumbnailGen();
+            });
+            #endregion
 
             app.UseEndpoints(endpoints =>
             {

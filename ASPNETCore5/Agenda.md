@@ -20,13 +20,14 @@
 
 - [x] TagHelper / ASP-Helper
 - [x] Routing
+- [ ] Bilder hochladen
+- [ ] Gallery
+- [ ] Middleware -> ThumNails 
+
 - [ ] State Management
 - [ ] SignalR /  Blazor/SignalR
 - [ ] Lokalisierung / ViewComponents
 
-- [ ] Bilder hochladen
-- [ ] Gallery
-- [ ] Middleware -> ThumNails 
 
 - [ ] Kestrel - Server
 - [ ] WebAPI 

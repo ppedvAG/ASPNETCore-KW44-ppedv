@@ -1,0 +1,14 @@
+﻿@page
+@model RazorPageSamples.Pages.Modul007.UploadFileModel
+
+<form enctype="multipart/form-data" method="post">
+    <!--DialogBox für File Selektierung-->
+
+    <input type="file" name="datei" dirname="C:\" />
+
+
+    <span field-validation-valid" data-valmsg-for="jpegSelection" data-valmsg-replace="true" id="jpegSelection" name="jpegSelection" class="text-danger"></span>
+    <div>
+        <input type="submit" value="Upload" />
+    </div>
+</form>

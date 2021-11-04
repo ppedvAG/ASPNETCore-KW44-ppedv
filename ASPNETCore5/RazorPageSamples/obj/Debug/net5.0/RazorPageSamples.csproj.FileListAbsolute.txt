@@ -459,3 +459,10 @@ C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\bin\Debug\n
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\bin\Debug\net5.0\Westwind.AspNetCore.LiveReload.dll
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\obj\Debug\net5.0\RazorPageSamples.MvcApplicationPartsAssemblyInfo.cs
 C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\obj\Debug\net5.0\Razor\Pages\Movie\ShoppingCartOverview.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\obj\Debug\net5.0\Razor\Pages\Modul007\Gallery.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\obj\Debug\net5.0\Razor\Pages\Modul007\UploadFile.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\obj\Debug\net5.0\Razor\Pages\Modul007\Gallery2.cshtml.g.cs
+C:\Aktueller Kurs\ASPNETCore-KW44-ppedv\ASPNETCore5\RazorPageSamples\obj\Debug\net5.0\Razor\Pages\Modul008\ResponseCacheSample.cshtml.g.cs
