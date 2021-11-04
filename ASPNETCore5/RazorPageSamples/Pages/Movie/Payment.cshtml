@@ -1,0 +1,18 @@
+﻿@page
+@model RazorPageSamples.Pages.Movie.PaymentModel
+
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <p>PayPal</p>
+        <p>Sofortüberweisung</p>
+    }
+    else
+    {
+        <p>Bitte melden sie sich an</p>
+
+    }

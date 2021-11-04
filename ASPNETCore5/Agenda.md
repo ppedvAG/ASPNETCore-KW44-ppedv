@@ -25,9 +25,10 @@
 - [x] Middleware -> ThumNails 
 
 - [x] State Management
-- [ ] Kestrel - Server
+- [x] Kestrel - Server
 - [ ] SignalR /  Blazor/SignalR
-- [ ] Lokalisierung / ViewComponents
+- [x] Lokalisierung / ViewComponents
+- [x] Identity Authentification
 
 
 
