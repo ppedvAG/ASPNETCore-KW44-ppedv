@@ -1,0 +1,9 @@
+﻿@page
+@model RazorPageSamples.Pages.Modul008.ViewDataSampleModel
+@{
+    string email = ViewData["Email"].ToString();
+}
+
+@email;
+<br />
+@ViewData["Email"]

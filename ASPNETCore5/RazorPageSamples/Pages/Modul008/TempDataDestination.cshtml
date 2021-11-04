@@ -1,0 +1,10 @@
+﻿@page
+@model RazorPageSamples.Pages.Modul008.TempDataDestinationModel
+@{
+//string msg = TempData["Message"].ToString();
+//TempData.Keep(); //Für alle Einträge gilt das
+}
+
+@*@msg*@
+
+@TempData.Peek("Message") @*Ausgabe + signalisiere, dass löschen unterdrückt wird*@

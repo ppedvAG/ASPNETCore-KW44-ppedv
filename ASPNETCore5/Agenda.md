@@ -20,16 +20,17 @@
 
 - [x] TagHelper / ASP-Helper
 - [x] Routing
-- [ ] Bilder hochladen
-- [ ] Gallery
-- [ ] Middleware -> ThumNails 
+- [x] Bilder hochladen
+- [x] Gallery
+- [x] Middleware -> ThumNails 
 
-- [ ] State Management
+- [x] State Management
+- [ ] Kestrel - Server
 - [ ] SignalR /  Blazor/SignalR
 - [ ] Lokalisierung / ViewComponents
 
 
-- [ ] Kestrel - Server
+
 - [ ] WebAPI 
 - [ ] OpenAPI / Swagger 
 - [ ] HttpClient

@@ -43,7 +43,7 @@ namespace RazorPageSamples
                 .AddRazorRuntimeCompilation();
 
 
-            
+            services.AddAuthentication();
 
             services.AddSingleton<ICar, MockCar>();
 
@@ -77,6 +77,8 @@ namespace RazorPageSamples
             app.UseStaticFiles(); //wwwroot 
 
             app.UseRouting();
+
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseSession();
 

@@ -1,9 +1,10 @@
 ﻿@page
 @model RazorPageSamples.Pages.Modul008.ResponseCacheSampleModel
-@{
-    string output = Model.LastAccessAt.ToString();
-}
+
 
 <h1>cached</h1>
-@output
+
+<cache expires-after="@new TimeSpan(0,0,30)">
+    @DateTime.Now
+</cache>
 
